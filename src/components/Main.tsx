@@ -2,6 +2,14 @@ import React, { ReactElement } from 'react';
 import { createUseStyles } from 'react-jss';
 
 const useStyles = createUseStyles({
+  '@keyframes wait': {
+    from: {
+      opacity: 0,
+    },
+    to: {
+      opacity: 0,
+    },
+  },
   '@keyframes fadein': {
     from: {
       opacity: 0,
@@ -11,7 +19,7 @@ const useStyles = createUseStyles({
     },
   },
   root: {
-    animation: '$fadein 1s ease-in',
+    animation: '$wait 0.3s, $fadein 1s ease-in 0.3s',
     height: '100%',
     flexGrow: 1,
     flexShrink: 0,
