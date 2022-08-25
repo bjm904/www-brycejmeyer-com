@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="<%= htmlWebpackPlugin.options.author %>">
+  <meta name="description" content="<%= htmlWebpackPlugin.options.description %>">
+  <meta name="theme-color" content="<%= htmlWebpackPlugin.options.themeColor %>">
+  <meta name="version" content="<%= htmlWebpackPlugin.options.version %>">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%= htmlWebpackPlugin.options.title %></title>
+  <style>
+    html, body, #root {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      height: 100%;
+      min-height: 100%;
+    }
+    *{
+      box-sizing: border-box;
+    }
+  </style>
+</head>
+<body>
+  <section id="root"></section>
+</body>
+</html> 
