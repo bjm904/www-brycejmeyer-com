@@ -1,8 +1,11 @@
 import 'typeface-coda';
 import React, { ReactElement } from 'react';
 import { createUseStyles } from 'react-jss';
+import ReactGA from 'react-ga4';
 
 import Main from './components/Main';
+
+ReactGA.initialize('G-XYBK2NL5E6');
 
 const useStyles = createUseStyles({
   root: {
