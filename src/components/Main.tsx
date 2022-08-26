@@ -77,7 +77,7 @@ function Main(): ReactElement {
           This site&apos;s
           {' '}
           <a className={classes.link} href="https://github.com/bjm904/www-brycejmeyer-com" rel="noreferrer" target="_blank">
-            soruce
+            source
           </a>
         </div>
       </div>
